@@ -20,3 +20,57 @@ code {
   background-size: 1000px;
   border-radius: 10px;
 }
+.f-t {
+  text-align: center;
+  padding: 50px 0px;
+}
+.hr {
+  width: 90%;
+  margin: auto;
+  border: 0.5px solid rgb(53, 50, 50);
+}
+.footer-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.footer-items a {
+  margin: 0px 25px;
+  color: rgb(219, 219, 219);
+  font-size: 14px;
+}
+.social-media {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.f-icon {
+  font-size: 24px;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(32, 31, 31);
+  color: white;
+  padding: 50px 0px;
+}
+@media only screen and (max-width: 700px) {
+  .footer-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-items a {
+    margin: 15px 0;
+  }
+}
