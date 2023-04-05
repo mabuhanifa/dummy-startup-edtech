@@ -7,7 +7,7 @@ import Slider from "../components/Slider";
 export default function Home() {
   return (
     <>
-      <div className="2xl:px-40 xl:px-20 px-10 py-10 dark:bg-gray-700 dark:text-gray-300">
+      <div className="2xl:px-40 xl:px-20 px-10 py-10">
         <Nav />
         <Hero />
         <div className="my-10">
