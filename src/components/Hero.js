@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
         </div>
         <div>
-          <button className="px-10 py-3 border border-gray-400 text-indigo-500 rounded-md mt-10 hover:bg-indigo-700 hover:text-white uppercase font-bold mb-40">
+          <button className="px-10 py-3 bg-blue-700 rounded-md mt-10 hover:bg-indigo-700 text-white uppercase font-bold mb-40">
             Get Started
           </button>
         </div>
