@@ -3,9 +3,9 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer>
-      <h1 class="f-t">Victors</h1>
-      <hr class="hr" />
-      <div class="footer-items">
+      <h1 className="f-t">Victors</h1>
+      <hr className="hr" />
+      <div className="footer-items">
         <a href="/">Contact Us</a>
         <a href="/">Terms of services</a>
         <a href="/">Privacy Policy</a>
@@ -13,9 +13,9 @@ export default function Footer() {
         <a href="/">Mobile App</a>
         <a href="/">About</a>
       </div>
-      <div class="social-media">
+      <div className="social-media">
         <a
-          class="f-icon"
+          className="f-icon"
           href="https://www.facebook.com"
           target="_blank"
           rel="noreferrer"
@@ -23,7 +23,7 @@ export default function Footer() {
           <FaFacebookF />
         </a>
         <a
-          class="f-icon"
+          className="f-icon"
           href="https://www.instagram.com"
           target="_blank"
           rel="noreferrer"
@@ -31,7 +31,7 @@ export default function Footer() {
           <FaInstagram />
         </a>
         <a
-          class="f-icon"
+          className="f-icon"
           href="https://www.youtube.com"
           target="_blank"
           rel="noreferrer"

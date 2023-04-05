@@ -1,18 +1,20 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Hero from '../components/Hero'
-import Nav from '../components/Nav'
-import Slider from '../components/Slider'
+import React from "react";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Nav from "../components/Nav";
+import Slider from "../components/Slider";
 
 export default function Home() {
   return (
-    <div>
-        <Nav/>
-        <Hero/>
-        <div className='my-10'>
-        <Slider />
+    <>
+      <div className="2xl:px-40 xl:px-20 px-10 py-10 dark:bg-gray-700 dark:text-gray-300">
+        <Nav />
+        <Hero />
+        <div className="my-10">
+          <Slider />
         </div>
-        <Footer />
-    </div>
-  )
+      </div>
+      <Footer />
+    </>
+  );
 }
