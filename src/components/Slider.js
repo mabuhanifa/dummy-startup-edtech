@@ -1,7 +1,9 @@
 import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import bank from '../images/bank.jpg';
+import bcs from "../images/bcs.avif";
 import logo from "../images/logo.jpeg";
-
+import student from "../images/student.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,23 +26,15 @@ export default function Slider() {
         <img src={logo} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={logo} alt="" />
+        <img src={student} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={logo} alt="" />
+        <img src={bcs} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={logo} alt="" />
+        <img src={bank} alt="" />
       </SwiperSlide>
-      <SwiperSlide>
-        <img src={logo} alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={logo} alt="" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={logo} alt="" />
-      </SwiperSlide>
+      
     </Swiper>
   );
 }
