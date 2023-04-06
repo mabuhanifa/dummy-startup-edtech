@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Slider from "../components/Slider";
+import About from "./About";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <div className="my-10">
           <Slider />
         </div>
+        <About/>
       </div>
     </>
   );
