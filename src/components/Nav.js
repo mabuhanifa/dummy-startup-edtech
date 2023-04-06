@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="flex gap-x-10 justify-center items-center">
         <img src={logo} alt="" className="w-20 rounded"/>
       </div>
-      <div className="flex gap-x-10 justify-center items-center">
+      <div className="flex gap-x-10 justify-center items-center font-bold">
         <Link to="/">Home</Link>
         <Link to="/courses">Courses</Link>
         <Link to="/bankjob">Bank Job</Link>
